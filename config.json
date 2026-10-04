@@ -1,0 +1,166 @@
+{
+    "threads": 1,
+    "censor": true,
+    "stealth": true,
+    "show_browser": true,
+    "username": {
+        "prefix": "tdinh",
+        "suffix_digits": 6
+    },
+    "display_names": [
+        "tdinh",
+        "nova",
+        "echo",
+        "lunar",
+        "pixel",
+        "frost",
+        "blaze",
+        "shadow",
+        "ghost",
+        "raven",
+        "orbit",
+        "zen",
+        "kai",
+        "mira",
+        "axel",
+        "lyra",
+        "vex",
+        "ronin",
+        "sable",
+        "iris",
+        "jade",
+        "knox",
+        "opal",
+        "quill",
+        "rex",
+        "sage",
+        "titan",
+        "umbra",
+        "volt",
+        "wisp",
+        "xen",
+        "yuki",
+        "zero",
+        "ash",
+        "blade",
+        "cipher",
+        "drift",
+        "ember",
+        "flux",
+        "glitch"
+    ],
+    "mullvad": {
+        "enabled": false,
+        "account_number": "",
+        "monitor_interval": 300,
+        "rotate_on_cooldown": true,
+        "countries": [
+            "DK",
+            "SZ",
+            "AR"
+        ],
+        "blocked_countries": [
+            "AU",
+            "BE",
+            "CY",
+            "CO",
+            "SG"
+        ]
+    },
+    "9captcha": {
+        "api_key": "",
+        "api_keys": [
+            ""
+        ],
+        "extension_solver": true,
+        "req_solver": false,
+        "manual_solve": true,
+        "manual_timeout": 300
+    },
+    "mail_services": {
+        "duckmail": {
+            "enabled": true,
+            "password": "tdinhdepchaiiuemmmmmmmmmmmmmmmmmmmmmmmmmmmmm2109eu2139829028140980921489018jc09e8"
+        },
+        "cybertemp": {
+            "enabled": false,
+            "api_key": ""
+        },
+        "tempmail_lol": {
+            "enabled": false
+        },
+        "hotmail007": {
+            "enabled": false,
+            "client_key": ""
+        },
+        "lution": {
+            "enabled": false,
+            "api_key": "",
+            "domain": "",
+            "mailcode": ""
+        },
+        "zeus": {
+            "enabled": false,
+            "api_key": ""
+        },
+        "draxono": {
+            "enabled": false,
+            "api_key": ""
+        },
+        "mailcow": {
+            "enabled": false,
+            "api_base": "",
+            "api_key": "",
+            "host": "",
+            "domain": "",
+            "imap_port": 993,
+            "target": ""
+        }
+    },
+    "verification": {
+        "enabled": true
+    },
+    "humanizer": {
+        "enabled": true,
+        "retries": 3,
+        "max_threads": 3,
+        "avatar_dimension": 256,
+        "max_avatar_cache": 100,
+        "avatar": true,
+        "pronouns": true,
+        "bio": true,
+        "display_name": true,
+        "banner": false,
+        "hypesquad": true
+    },
+    "auth_joiner": {
+        "bot": {
+            "id": "",
+            "secret": "",
+            "token": ""
+        },
+        "web": {
+            "url": "http://localhost:3001"
+        },
+        "data": {
+            "guildId": ""
+        }
+    },
+    "nopecha_key": "",
+    "local_solver": {
+        "url": "http://localhost:5002"
+    },
+    "auto_join": {
+        "enabled": false,
+        "mode": "oauth",
+        "guild_id": "",
+        "invite_code": "",
+        "redirect_uri": "https://discord.com",
+        "bot": {
+            "id": "",
+            "secret": "",
+            "token": ""
+        },
+        "join_locked": true
+    }
+}
